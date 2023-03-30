@@ -15,5 +15,4 @@ public class PersonService {
     public List<Person>getAll(){
         return service.findAll();
     }
-
 }
