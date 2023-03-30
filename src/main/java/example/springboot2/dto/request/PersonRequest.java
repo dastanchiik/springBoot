@@ -1,4 +1,5 @@
 package example.springboot2.dto.request;
 
-public class Company {
+public class PersonRequest {
+
 }

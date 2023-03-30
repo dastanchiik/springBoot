@@ -1,4 +1,4 @@
 package example.springboot2.dto.response;
 
-public class CompanyResponse {
+public class PersonResponse {
 }

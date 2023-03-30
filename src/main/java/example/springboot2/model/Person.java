@@ -8,13 +8,16 @@ import lombok.*;
 
 @Entity
 @NoArgsConstructor
-@AllArgsConstructor
 @Getter
 @Setter
 @ToString
-public class Company {
+public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private String companyName;
+    private String name;
+
+    public Person(String name) {
+        this.name = name;
+    }
 }
