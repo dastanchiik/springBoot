@@ -1,5 +1,9 @@
 package example.springboot2.dto.request;
 
-public class PersonRequest {
+import lombok.*;
 
+@Getter
+@Setter
+public class PersonRequest {
+    private String name;
 }
